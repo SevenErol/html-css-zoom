@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+body {
+    background-color: black;
+}
+
+.box_image {
+    width: calc(100% / 7);
+    padding: 0.1rem;
+}
+
+.row img {
+    max-width: 100%;
+    
+}
