@@ -60,6 +60,10 @@ body {
     margin-left: 2rem;
 }
 
+#site_footer {
+    background-color: grey;
+}
+
 .mic_video {
     color: white;
     text-align: center;
@@ -104,3 +108,29 @@ nav i {
 .share {
     color: lightgreen;
 }
+
+.exit {
+    width: calc((100% / 12) * 3);
+    position: relative;
+}
+
+.bg_grey {
+    height: 100%;
+    width: calc((100% / 12)*4);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.close_meeting {
+    color: red;
+    background-color: white;
+}
+
+.foot {
+    padding: 0;
+}
+
