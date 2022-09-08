@@ -70,6 +70,7 @@ body {
 .mic_video {
     display: flex;
     flex-wrap: nowrap;
+    width: calc((100% / 12)*3);
 }
 
 .arrow {
@@ -79,4 +80,27 @@ body {
 .mic_video i {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    width: calc((100% / 12)*6);
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.invite, nav.arrow {
+    width: calc(100% / 9);
+}
+
+nav i {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.share {
+    color: lightgreen;
 }
