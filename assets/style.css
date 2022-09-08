@@ -12,7 +12,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 body {
@@ -22,9 +22,20 @@ body {
 .box_image {
     width: calc(100% / 7);
     padding: 0.1rem;
+    position: relative;
 }
 
 .row img {
-    max-width: 100%;
-    
+    max-width: 100%;   
+}
+
+.user_mic {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
