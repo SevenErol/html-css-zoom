@@ -59,3 +59,24 @@ body {
 .user {
     margin-left: 2rem;
 }
+
+.mic_video {
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mic_video {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.arrow {
+    margin: 0.5rem;
+}
+
+.mic_video i {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
