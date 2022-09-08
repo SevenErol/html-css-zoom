@@ -27,6 +27,7 @@
 
 body {
     background-color: var(--bg-body);
+    height: 100vh;
 }
 
 .box_image {
